@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson_5_1</title>
+</head>
+
+<body>
+	<header class="header">
+		<nav class="menu">
+			<ul class="menu__list">
+				<li>
+					<a href="#menu-link1" class="link1">>Длина и ширина</a>
+				</li>
+				<li>
+					<a href="#menu-link2" class="link2">>Отступы</a>
+				</li>
+				<li>
+					<a href="#menu-link3" class="link3">>Великий Display</a>
+				</li>
+				<li>
+					<a href="#menu-link4" class="link4">>Отрицательный margin</a>
+				</li>
+				<li>
+					<a href="#menu-link5" class="link5">>Сломанная строка</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main class="main">
+
+		<h2 id="menu-link1">Длина и ширина</h2>
+
+		<a id="x" class="string">Я строка, а это значит что мои внешние отступы сверху и внизу не работают, а горизонтальные
+		внешние отступы - только на маленькое расстояние!</a>
+
+		<div id="a" class="block">Блок, просто блок. Я не меняю свою ширину!</div>
+
+		<div id="b" class="block">Я тоже просто блок, и тоже не меняю свою ширину! Но буквы за моими границами не видны.
+			<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ipsam, unde modi nostrum quidem expedita
+			laborum exercitationem laudantium ab dolores officiis saepe fugit assumenda perspiciatis eaque culpa optio nisi
+			voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aperiam id a quaerat. Eius,
+			voluptatem facere similique blanditiis aliquam iste nihil nulla at alias natus cupiditate! Fuga, dicta.
+			Laudantium, sed. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque modi incidunt sit,
+			repudiandae fugit officiis quos alias? Minus modi aliquid fugit! Provident minima at corporis sunt officia
+			ducimus obcaecati ullam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ipsam, unde modi nostrum quidem expedita
+			laborum exercitationem laudantium ab dolores officiis saepe fugit assumenda perspiciatis eaque culpa optio nisi
+			voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aperiam id a quaerat. Eius,
+			voluptatem facere similique blanditiis aliquam iste nihil nulla at alias natus cupiditate! Fuga, dicta.
+			Laudantium, sed. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque modi incidunt sit,
+			repudiandae fugit officiis quos alias? Minus modi aliquid fugit! Provident minima at corporis sunt officia
+			ducimus obcaecati ullam. </div>
+
+			<div id="c" class="block">Я тоже просто блок, и тоже не меняю свою ширину! Но буквы за моими границами можно увидеть, просто используй полосы
+			прокрутки!</div>
+
+			<a id="d" class="string">Строка. Моя ширина не работает :(</a>
+
+			<div id="e" class="block">А моя ширина не меньше, чем 1000px, проверь.</div>
+
+			<div id="f" class="block">Моя ширина не больше, чем 1000px!</div>
+
+			<div id="g" class="block">Моя длина не больше, чем 100px! <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolorem natus, fugit quis facere blanditiis eveniet eos non facilis deleniti minima sequi inventore officia? Quae neque cum eveniet aut veniam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur soluta neque, magni saepe quidem voluptas velit blanditiis quis impedit, consequuntur iure ratione praesentium quod possimus quisquam veniam dolorum nam natus.</div>
+
+			<div id="h" class="block">Моя длина не меньше, чем 100px! <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum cum exercitationem ipsum temporibus fugiat modi ad voluptatem in libero quod? Possimus ex hic cum reprehenderit incidunt ut. Itaque, facilis tempore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis labore, atque incidunt enim quisquam, libero voluptatibus qui consectetur aliquid ipsam ratione sed quidem nisi minima ipsa consequatur iste ducimus a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit facilis, molestias incidunt dolores, quo consequatur tempora maiores voluptatum beatae fugiat vero quas, saepe illum cum porro corrupti commodi laudantium! Modi? Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ab dolore sapiente, optio dolores alias laborum. Voluptatibus corporis est omnis, ex accusamus rem voluptatum, nisi tenetur cum molestias corrupti vero?</div>
+
+			<h2 id="menu-link2">Отступы</h2>
+
+			<div id="i" class="block">ВНУТРЕННИЕ ОТСТУПЫ <br><br>padding: 50px 40px 50px 80px<br> = 4м след. св-вам: <br> padding-top: 50px; <br>
+			padding-right: 40px; <br> padding-bottom: 50px; <br>padding-left: 80px; </div>
+
+			<div id="j" class="block">ВНУТРЕННИЕ ОТСТУПЫ<br> <br>с тремя свойствами <br> padding: 50px 80px 60px; = <br>padding-top: 50px;<br> 
+			padding-right: 80px; <br> padding-bottom: 60px; <br> padding-left: 80px;</div>
+
+			<div id="k" class="block">ВНУТРЕННИЕ ОТСТУПЫ <br><br>с двумя свойствами <br> padding: 50px 80px; = <br> padding-top: 50px;<br> 
+			padding-right: 80px;<br> padding-bottom: 50px; <br> padding-left: 80px;</div>
+
+			<div id="l" class="block">ВНУТРЕННИЕ ОТСТУПЫ<br> <br>с одним свойством<br>padding: 50px; = <br> padding-top: 50px;<br>
+			padding-right: 50px;<br>  padding-bottom: 50px; <br> padding-left: 50px;</div>
+
+			<div id="m" class="block">ВНЕШНИЕ ОТСТУПЫ <br><br>margin: 50px 40px 50px 80px; = <br> margin-top: 50px; <br> margin-right:
+			40px;<br>  margin-bottom: 50px;<br>  margin-left: 80px;</div>
+
+			<div id="n" class="block">ВНЕШНИЕ ОТСТУПЫ<br><br>с тремя свойствами<br>margin: 50px 80px 60px; = <br> margin-top: 50px;<br> 
+			margin-right: 80px; <br> margin-bottom: 60px; <br> margin-left: 80px;</div>
+
+			<div id="o" class="block">ВНЕШНИЕ ОТСТУПЫ<br><br>с двумя свойствами<br>margin: 50px 80px; = <br> margin-top: 50px;<br> 
+			margin-right: 80px;<br>  margin-bottom: 50px; <br> margin-left: 80px;</div>
+
+			<div id="p" class="block">ВНЕШНИЕ ОТСТУПЫ<br><br>с одним свойством<br>margin: 50px; = <br> margin-top: 50px; <br> margin-right:
+			50px;<br>  margin-bottom: 50px; <br> margin-left: 50px;</div>
+			
+			<h2 id="menu-link3">Великий Display</h2>
+
+			<a id="q" class="string">% % % % % %</a>
+			<a id="r" class="string">В одной строке тк строчные элементы.</a>
+			<a id="s" class="string">Мы уже блочные! ***display: block;***</a>
+			<a id="t" class="string">Мы уже блочные! ***display: block;***</a>
+			<div id="v" class="block">Я строчный блок!</div>
+			<a id="u" class="string">А я строчно-блочная строка!</a>
+
+			<h2 id="menu-link4">Отрицательный margin</h2>
+			<div class="-margin">
+				<p class="test4">Отрицательным</p>
+				<p class="test2">Я</p>
+				<p class="test1">Тест</p>
+				<p class="test5">margin</p>
+				<p class="test3">Создан</p>
+			</div>
+
+			<h2 id="menu-link5">Строка сломанная при применении padding XD</h2>
+
+			<p><a id="w" class="string">сломан Я сломан Я сломан Я сломан Я сломан Я сломанЯ сломан Я сломан Я сломан Я	сломан Я сломан Я сломан Я сломан Я сломан Я сломан Я сломан Я сломан Я сломан</a></p>
+	</main>
+	<footer class="footer">
+		<nav class="menu-2">
+			<ol class="menu__list">
+				<li>
+					<a href="#menu-link1" class="link1">>Длина и ширина</a>
+				</li>
+				<li>
+					<a href="#menu-link2" class="link2">>Отступы</a>
+				</li>
+				<li>
+					<a href="#menu-link3" class="link3">>Великий Display</a>
+				</li>
+				<li>
+					<a href="#menu-link4" class="link4">>Отрицательный margin</a>
+				</li>
+				<li>
+					<a href="#menu-link5" class="link5">>Сломанная строка</a>
+				</li>
+			</ol>
+		</nav>
+	</footer>
+
+</body>
+
+</html>
